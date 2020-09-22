@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+.thisone {
+    background-color: silver;
+}
+header nav ul {
+    display: inline-block;
+    margin-left: 170px;
+}
+body {
+    background-color: lightcyan;
+}
+ul a {
+    color: white;
+}
+footer nav ul {
+    display: inline-block;
+    margin-left: 250px;
+}
+footer nav ul a {
+    color: lightslategray;
+}
