@@ -7,6 +7,9 @@ fname = prompt ('WELCOME TO YOUR POCKET LIPRARY enter your first name, please')
 lname = prompt (fname+' enter your last name, please')
 age = prompt (fname+' enter your age, please')
 function total(age) {
+    while (age <= 0 || age > 100) {
+        age = prompt (fname+' enter your correct age, please')
+    }
 if (age > 0 ) {
     if (age < 8 ){
         goto = 'Our advice to you: go to pecture books list'
