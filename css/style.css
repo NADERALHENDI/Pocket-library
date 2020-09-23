@@ -22,3 +22,7 @@ footer nav ul {
 footer nav ul a {
     color: lightslategray;
 }
+img {
+    width: 500px;
+    height: 250px;
+}

@@ -2,9 +2,11 @@ var fname;
 var lname;
 var age;
 var goto;
+
 fname = prompt ('WELCOME TO YOUR POCKET LIPRARY enter your first name, please')
 lname = prompt (fname+' enter your last name, please')
 age = prompt (fname+' enter your age, please')
+function total(age) {
 if (age > 0 ) {
     if (age < 8 ){
         goto = 'Our advice to you: go to pecture books list'
@@ -19,3 +21,5 @@ if (age > 0 ) {
 var total = fname+' '+lname+'  '+goto
 alert (goto);
 document.write('<h3><em>'+total+'</em></h3>');
+}
+total(age)
